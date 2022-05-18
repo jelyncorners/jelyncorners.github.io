@@ -1,0 +1,47 @@
+#btnmain{
+    background-color: #778DA9;
+    color: white;
+}
+
+.card-img-top{
+    float: left;
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    
+}
+
+
+
+.navbar{
+    background-color: beige;
+}
+
+.navbar-nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h3{
+    padding-top: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lead{
+    text-align: justify;
+    padding-left: 2em;
+}
+
+.letsgetsocial{
+    font-style: italic;
+    color: brown;
+}
+
+h2{
+    text-align: center;
+}
+
+a.stylelink:visited{color:#0000ff;}
+a.stylelink:hover{font-size: 150%;}
+
+

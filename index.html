@@ -1,4 +1,168 @@
-<html>
-    <h1> Jelyn's Portfolio</h1>
-    <img src="./model3.png" />
-    </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+    <title> Jelyn Corners </title>
+</head>
+<body>
+    <!--navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+        <div class="container">
+            <a class="navbar-brand"></a> <img src="images/jc_logo.png">
+
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+            >
+            <span class="navbar-toggler-icon">
+            </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="#homepage" class="nav-link">Homepage</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#projects" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#aboutme" class="nav-link">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>        
+    </nav>
+
+    <!-- Showcase -->
+    <section class="bg-dark text-light p-5  text-center ">
+        <div class="container">
+         <div class="d-sm-flex">
+            <iframe  class="img-fluid w-50" src="https://www.youtube.com/embed/iPzlq0xVwF8" alt=""></iframe>
+               <div> <h1>  Hi there, I'm <span class="text-warning">Jelyn!</span></h1>
+                <p class="lead">
+                    I am patient, creative and pay close attention to details. 
+                    In addition to my Javascript + MERN course, I am broadening my Figma skills with a Udemy course.  
+                    I enjoy reading as a change of pace from my computer work.  Nostradamus' book has caught 
+                    my attention lately.  I also enjoy the Esperanto language and I try to walk 10,000 steps 
+                    with our Australian Shepherd dog and LaPerm cat. From time to time, I see patterns in random 
+                    objects which feel to me like a code waiting to get cracked so I can unravel the true meaning. 
+                </p>
+                <a href="https://www.facebook.com/corners.jelyn/" target="_blank" id="btnmain" class="btn">Facebook</a>
+                <a href="https://www.linkedin.com/in/jelyncorners/" target="_blank" id="btnmain" class="btn">LinkedIn</a>
+                <a href="https://github.com/jelyncorners" target="_blank" id="btnmain" class="btn">Github</a>
+            </div>
+            
+        </div>  
+        </div>
+    </section>
+
+    <section>
+        <div  class="container">            
+            <div>
+                <b> <h3 class="text-center">My Projects</h3></b>            
+            </div>
+        </div>
+    </section>
+
+    <!--Boxes for projects grid-->
+    <section id="projects" class="p-5">
+        <div class="container">
+            <div class="row text-center g-4">
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/PacMan1.png" class="img-fluid card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">Pacmen Challenge</h5>
+                          <p class="card-text">A game where you can add as many pacman as you want and let them race . They will fill up your screen and they will bounce at random speed.</p>
+                          <a href="https://github.com/jelyncorners/Pacman-challenge" target="_blank" id="btnmain" class="btn">View on Github</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/eyes.png" class="img-fluid card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">Eye Exercise</h5>
+                          <p class="card-text"> This is an animated eyes that follows your mouse pointer everywhere on your screen as you hover on it. Try to play with it, it is fun! </p>
+                          <a href="https://github.com/jelyncorners/Eye-Exercise" target="_blank" id="btnmain" class="btn">View on Github</a>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-md">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/map3d.png" class="img-fluid card-img-top" alt="">
+                        <div class="card-body">
+                          <h5 class="card-title">Walking Tracker</h5>
+                          <p class="card-text">
+                            An animated real time walking route from MIT to Harvard Hall. I customized my map using MapBox and came up with a 3D layer of map.
+                           </p>
+                          <a href="https://github.com/jelyncorners/Animated-Walking-Tracker" target="_blank" id="btnmain" class="btn">View on Github</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About Me Page-->
+    <section id="aboutme" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="images/model3.png" class="img-fluid" > 
+                </div>
+                <div class="col-md p-5">
+                    <h2>About Me</h2>
+                    <p class="lead">
+                        I worked as a freelance web developer online while enjoying nature, and learning different cultures, traditions, languages, food, and people. 
+                        I worked to be flexible. At times I was asked to do graphic design and I love bringing my creative side to these requests.
+                        At other times the requests required full stack development starting with a database backend, a middle tier, and front end code in Javascript, HTML, and CSS.
+                    </p>
+                    <p class="lead">
+                        How did I get into Full Stack? FUll stack development lets me connect my creative side with my passion for ease of use. 
+                        I appreciate being able to deliver elegance and an intuitive feel to delight users of my products. 
+                        I see opportunity in even the most beautifully designed pages for improvements that will make people's lives a little bit better.
+                    </p>
+                    <p class="lead"><a href="https://www.jelyncorners.com/about"  target="blank" id="btnmain" class="btn">
+                        <i class="bi bi-chevron-right">Read more about me.</i>
+                    </a></p>
+                    
+                    
+                    <h2>Let's get <span class="letsgetsocial">social!</span></h2>
+                    <p class="lead">
+                        <a class="stylelink"  href="https://github.com/jelyncorners?tab=repositories" target="blank" 
+                        ><i class="fab fa-github"></i>https://github.com/jelyncorners</a>
+                    </p>
+                    <p class="lead">
+                        <a class="stylelink"  href="https://www.linkedin.com/in/jelyncorners/" target="blank" 
+                        ><i class="fab fa-github"></i>https://www.linkedin.com/in/jelyncorners/</a>
+                    </p>
+                    <p class="lead">
+                        <a class="stylelink"  href="https://www.jelyncorners.com/contact" target="blank" 
+                        ><i class="fab fa-github"></i>www.jelyncorners.com/contact</a>
+                    </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
+    
+</body>
+</html>
